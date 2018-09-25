@@ -1,0 +1,91 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Nova Flat';
+}
+
+h1, figure, a {
+  display: block;
+  margin: auto;
+  padding: 10px;
+}
+
+a {
+  border: 1px solid black;
+  width: 150px;
+  padding: 10px;
+  background-color: purple;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 3px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+a:hover {
+  background-color: #6F3395;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 300px;
+  height: 300px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 5px solid black;
+}
+
+li {
+  padding: 0;
+  margin: 0;
+  background-color: grey;
+  width: 90px;
+  height: 90px;
+  border: 5px solid black;
+}
+
+.clicked {
+  background-color: white;
+  font-size: 90px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 80%;
+}
+
+.clicked:hover {
+  background-color: white;
+}
+
+li:hover {
+  background-color: #4DDAE3;
+}
+
+.won {
+  background-color: #9FE34D;
+  color: white;
+}
+
+.lost {
+  background-color: white;
+  color: #F88BC5;
+}
+ p {
+   font-size: 30px;
+   color: black;
+   text-align: center;
+   font-weight: bold;
+ }
+
+ li.nohover{
+   pointer-events: none;
+ }
+
+  strong {
+    color: #F19F07;
+  }
